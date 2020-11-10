@@ -10,4 +10,5 @@ spec:
     targetRevision: HEAD
     path: kustomize-test-app/base
   destination:
+    server: https://kubernetes.default.svc
     namespace: hooks

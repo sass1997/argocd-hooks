@@ -9,7 +9,7 @@ spec:
   template:
     spec:
       containers:
-        - name: slack-notification
+        - name: test-curl
           image: curlimages/curl
           command:
             - "curl"
