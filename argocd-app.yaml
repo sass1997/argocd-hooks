@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL:
+    repoURL: https://github.com/sass1997/argocd-hooks.git
     targetRevision: HEAD
-    path: base
+    path: kustomize-test-app/base
   destination:
     namespace: hooks
