@@ -1,0 +1,13 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: test-app
+spec:
+  project: default
+  source:
+    repoURL:
+    targetRevision: HEAD
+    path: base
+  destination:
+    namespace: hooks
